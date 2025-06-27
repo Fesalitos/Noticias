@@ -9,10 +9,9 @@ Extração de Notícias: Utiliza a biblioteca BeautifulSoup para acessar as pág
 Obtenção de Cotação de Moeda: Através da API https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL, o sistema consulta e exibe a cotação do Dólar e do Euro em relação ao Real.
 Exibição de Dados: As notícias e as cotações são exibidas no terminal de forma organizada, mostrando o título da notícia, horário de publicação e o link da matéria, juntamente com as cotações das moedas.
 
-Resultados
-Notícias Extraídas
-O código foi configurado para buscar até 3 páginas de notícias. Como resultado, foram extraídas as últimas notícias de economia com seus respectivos horários de publicação e links para as matérias. Exemplo:
-G1 - ECONOMIA
+O código foi configurado para buscar até 3 páginas de notícias da seção de Economia do site G1. O resultado inclui as últimas notícias, com seus respectivos títulos, horários de publicação e links para as matérias. Exemplo:
+
+
 --------------------------------------------------------------------------------
 TÍTULO                                             HORÁRIO              LINK
 Ações da Nike disparam 17% após planos de reduzir  Há 10 minutos        https://g1.globo.com/economia/noticia/2025
@@ -21,7 +20,6 @@ Venezuelanos superam portugueses e passam a ser a  Há 3 horas           https:/
 
 Cotação do Dólar e do Euro
 A cotação do Dólar e do Euro foi consultada em tempo real utilizando a API. O sistema retornou os seguintes valores:
-
 
 COTAÇÃO DO DÓLAR: R$ 5.4676
 COTAÇÃO DO EURO: R$ 6.40205
